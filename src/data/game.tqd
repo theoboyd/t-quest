@@ -1,0 +1,22 @@
+# Basic demo world
+LAYER World 2 true 3
+  REGION Tree 20,20;20,100;100,100;100,20 0,128,0 3 "An evergreen tree"
+    ACTION "Cut $"
+    ACTION "Climb-in $"
+    EXACTION
+  REGION Mine 100,100;100,200;200,200;200,100 128,128,0 2 "A coal mine"
+    MVACTION
+    EXACTION
+  REGION Building 200,200;200,240;240,240;240,200 128,64,64 3 "A boring building"
+    ACTION "Enter $"
+    MVACTION
+    EXACTION
+LAYER Dungeon 3 true 1
+  REGION Lava 520,520;520,600;600,600;600,520 255,128,0 2 "Hot, hot, bubbly lava"
+    ACTION "Burn-self $"
+    EXACTION
+LAYER Terrain 1 true 1
+  REGION Grass 0,0;0,^;>,^;>,0 16,164,32 3 "Grassy knolls"
+    MVACTION
+    ACTION "Pick-blades $"
+    EXACTION

@@ -1,0 +1,3 @@
+# All players and characters
+PLAYER admin 2,2 health,95,100,0;strength,10,10,0
+NPC monster1 40,40 health,88,120,0 "A scary formidable beast"
