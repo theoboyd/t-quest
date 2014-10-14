@@ -1,0 +1,9 @@
+* Make polygons that are not navigable
+* Moving off the map may replace the map layer(s) with another
+* Type into infobox
+* Type interpreted commands such as: playAs(id) moveTo(x, y) etc
+* MoveableItem Interaction<P, Q> for trading, fighting and picking up items, each with own isWithinReach function
+* Inventory array
+* MoveableItem drawRegion polygon should approximate a circle (getCappedPosition)
+* Debug player motion display by increasing the PC/NPC draw radius
+* Centre button text: http://www.java2s.com/Code/Java/Language-Basics/Stringformatterformatastringtoagivenmaximumlengthwithleftcentreorrightjustification.htm
